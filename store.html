@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
 <!-- <link href="/public/stylesheets/bootstrap.min.css" rel="stylesheet"> -->
 <link rel="stylesheet"	href="https://getbootstrap.com/docs/4.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet"	href="public/stylesheets/style.css">
 <link rel="stylesheet"	href="public/stylesheets/sidenav.css">
 
@@ -111,9 +112,23 @@
 <main role="main" class="container">
   <div class="row">
     <div class="col-md-8 blog-main">
-      <h3 class="pb-3 mb-4 font-italic border-bottom">
+      <!-- <h3 class="pb-3 mb-4 font-italic border-bottom">
         Memory#1(Your 5th wedding anniversary is coming up.)
-      </h3>
+      </h3> -->
+      <div class="row">
+        <div class="col-md-8">
+          <h3 class="pb-3 mb-4 font-italic border-bottom">
+             Memory#1(Your 5th wedding anniversary is coming up.)
+            <!-- <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+            </label> -->
+          </h3>
+        </div>
+        <div class="col-md-4">
+            <button class="fa fa-star star" aria-hidden="true"></button>
+        </div>
+      </div>
 
       <div class="blog-post">
         
@@ -129,7 +144,22 @@
       </div><!-- /.blog-post -->
 
       <div class="blog-post">
-        <h3 class="pb-3 mb-4 font-italic border-bottom">Memory#2(Your dog will complete one year)</h2>
+        <!-- <h3 class="pb-3 mb-4 font-italic border-bottom">Memory#2(Your dog will complete one year)</h2> -->
+          <div class="row">
+        <div class="col-md-8">
+          <h3 class="pb-3 mb-4 font-italic border-bottom">
+             Memory#2(Your dog will complete one year)
+            <!-- <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+            </label> -->
+          </h3>
+        </div>
+        <div class="col-md-4">
+            <button class="fa fa-star star" aria-hidden="true"></button>
+        </div>
+      </div>
+      
         <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
 
         <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
@@ -193,7 +223,25 @@
   </p>
 </footer>
 </div>
-<script src="public/js/sidenav.js">
+<script src="public/js/sidenav.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script></body>
+      <script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+
+
+
+      <script type="text/javascript">
+ var red = false
+var star_color;
+$(document).ready(function () {
+    $(".star").click(function () {
+        if (red = !red) {
+            star_color = $(this).css('color');
+            $(this).css("color", "rgba(255,71,87,0.8)");
+        } else {
+            $(this).css("color", "rgba(205,205,205,0.5)");
+        }
+    });
+});
+      </script>
+</body>
 </html>

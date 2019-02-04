@@ -57,3 +57,25 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/*Star*/
+.star{
+  font-size:35px;
+  color: rgba(205,205,205,0.7);
+  border:none;
+  background: none;
+  text-align: center;
+  margin-top: 20px;
+  cursor:pointer;
+  float:right;
+}
+.star-active{
+  color: rgba(255,71,87,0.8);
+  border:none;
+  background: none;
+  text-align: center;
+  margin-top: 20px;
+}
+.star:focus{
+  outline:none;
+}
