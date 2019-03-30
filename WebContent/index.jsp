@@ -1,7 +1,8 @@
-
-<!doctype html>
-<html lang="en">
-  <head>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -64,10 +65,10 @@
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
       <a class="p-2 text-muted" href="#">Home/Milestones</a>
-      <a class="p-2 text-muted" href="nostalgia.html">Nostalgia</a>
+      <a class="p-2 text-muted" href="nostalgia.jsp">Nostalgia</a>
       <a class="p-2 text-muted" href="#">Get Inspired</a>
       <a class="p-2 text-muted" href="#">Family</a>
-	  <a class="p-2 text-muted" href="store.html">Profile/Store</a>
+	  <a class="p-2 text-muted" href="store.jsp">Profile/Store</a>
     </nav>
   </div>
 
