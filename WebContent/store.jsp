@@ -1,11 +1,12 @@
-
-<!doctype html>
-<html lang="en">
-  <head>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Sunny Jaiswal, Sumaiya Rahman, Sumeet">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
     <title>Blog Template · Bootstrap</title>
 
@@ -15,7 +16,6 @@
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet"	href="public/stylesheets/style.css">
 <link rel="stylesheet"	href="public/stylesheets/sidenav.css">
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <style>
       .bd-placeholder-img {
@@ -27,7 +27,6 @@
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
-        
       }
     </style>
     <!-- Custom styles for this template -->
@@ -36,21 +35,21 @@
     <link href="https://getbootstrap.com/docs/4.2/examples/blog/blog.css" rel="stylesheet">
   </head>
   <body>
-	  <div id="mySidenav" class="sidenav">
+      <div id="mySidenav" class="sidenav">
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  <a href="#">Starred Stories</a>
 		  <a href="#">About Us</a>
 		  <a href="#">Contact Us</a>
 	  </div>
   <div id="main">
-    <div class="container">
+	<div class="container">
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="#">Home</a>
+        <a class="blog-header-logo text-dark" href="#">Store</a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="text-muted" href="#">
@@ -63,17 +62,17 @@
 
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="#">Home/Milestones</a>
-      <a class="p-2 text-muted" href="nostalgia.html">Nostalgia</a>
+      <a class="p-2 text-muted" href="index.jsp">Home/Milestones</a>
+      <a class="p-2 text-muted" href="nostalgia.jsp">Nostalgia</a>
       <a class="p-2 text-muted" href="#">Get Inspired</a>
       <a class="p-2 text-muted" href="#">Family</a>
-	  <a class="p-2 text-muted" href="store.html">Profile/Store</a>
+	  <a class="p-2 text-muted" href="store.jsp">Profile/Store</a>
     </nav>
   </div>
 
   <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic">Do you know we have launched a store feature?</h1>
+      <h1 class="display-4 font-italic">Welcome to Store</h1>
       <p class="lead my-3">The store has products tailored to your profile and have awesome gifting options for your loved ones.</p>
       <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Go to Store...</a></p>
     </div>
@@ -89,56 +88,11 @@
           </h3>
           <div class="mb-1 text-muted">Nov 12</div>
           <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" data-toggle="modal" data-target="#modal1">Continue reading</a>
+          <a href="#">Continue reading</a>
         </div>
         <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text></svg>
       </div>
     </div>
-    <!-- Modal Box -->
-
-    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-bg"></div>
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">My First Family Vacation</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-md-5">
-            <img src="public/images/family.jpg" alt="">
-          </div>
-          <div class="col-md-7">
-            <h4>27<sup>th</sup> March, 2018</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p align="center" class="modal-social">
-              Share To:<br>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            </p>
-          </div>
-        </div>
-       
-      </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
-    </div>
-  </div>
-</div>
-
-<!-- Modal Box Ends -->
-
-
     <div class="col-md-6">
       <div class="card flex-md-row mb-4 shadow-sm h-md-250">
         <div class="card-body d-flex flex-column align-items-start">
@@ -148,60 +102,24 @@
           </h3>
           <div class="mb-1 text-muted">Nov 11</div>
           <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" data-toggle="modal" data-target="#modal2">Continue reading</a>
+          <a href="#">Continue reading</a>
         </div>
         <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text></svg>
       </div>
     </div>
-    <!-- Modal Box -->
-    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-bg"></div>
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title 2</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-md-5">
-            <img src="public/images/family.jpg" alt="">
-          </div>
-          <div class="col-md-7">
-            <h4>Heading 2</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p align="center" class="modal-social">
-              Share To:<br>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            </p>
-          </div>
-        </div>
-       
-      </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
-    </div>
-  </div>
-</div>
-
   </div>
 </div>
 
 <main role="main" class="container">
   <div class="row">
     <div class="col-md-8 blog-main">
+      <!-- <h3 class="pb-3 mb-4 font-italic border-bottom">
+        Memory#1(Your 5th wedding anniversary is coming up.)
+      </h3> -->
       <div class="row">
         <div class="col-md-8">
           <h3 class="pb-3 mb-4 font-italic border-bottom">
-             Milestone#1(Your 5th wedding anniversary is coming up.)
+             Memory#1(Your 5th wedding anniversary is coming up.)
             <!-- <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
@@ -212,7 +130,6 @@
             <button class="fa fa-star star" aria-hidden="true"></button>
         </div>
       </div>
-      
 
       <div class="blog-post">
         
@@ -228,10 +145,11 @@
       </div><!-- /.blog-post -->
 
       <div class="blog-post">
-        <div class="row">
+        <!-- <h3 class="pb-3 mb-4 font-italic border-bottom">Memory#2(Your dog will complete one year)</h2> -->
+          <div class="row">
         <div class="col-md-8">
           <h3 class="pb-3 mb-4 font-italic border-bottom">
-            Milestone#2 (Your dog will complete one year)
+             Memory#2(Your dog will complete one year)
             <!-- <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
@@ -242,7 +160,7 @@
             <button class="fa fa-star star" aria-hidden="true"></button>
         </div>
       </div>
-        <h3 class="pb-3 mb-4 font-italic border-bottom"></h2>
+      
         <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
 
         <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
@@ -304,10 +222,12 @@
   <p>
     <a href="#">Back to top</a>
   </p>
-</footer></div>
+</footer>
+</div>
 <script src="public/js/sidenav.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+
 
 
       <script type="text/javascript">
@@ -324,5 +244,5 @@ $(document).ready(function () {
     });
 });
       </script>
-	  </body>
+</body>
 </html>

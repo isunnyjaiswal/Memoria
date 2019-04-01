@@ -1,7 +1,8 @@
-
-<!doctype html>
-<html lang="en">
-  <head>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -34,21 +35,21 @@
     <link href="https://getbootstrap.com/docs/4.2/examples/blog/blog.css" rel="stylesheet">
   </head>
   <body>
-      <div id="mySidenav" class="sidenav">
+	  <div id="mySidenav" class="sidenav">
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  <a href="#">Starred Stories</a>
 		  <a href="#">About Us</a>
 		  <a href="#">Contact Us</a>
 	  </div>
   <div id="main">
-	<div class="container">
+    <div class="container">
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="#">Store</a>
+        <a class="blog-header-logo text-dark" href="#">Nostalgia</a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="text-muted" href="#">
@@ -61,17 +62,17 @@
 
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="index.html">Home/Milestones</a>
-      <a class="p-2 text-muted" href="nostalgia.html">Nostalgia</a>
+      <a class="p-2 text-muted" href="index.jsp">Home/Milestones</a>
+      <a class="p-2 text-muted" href="#">Nostalgia</a>
       <a class="p-2 text-muted" href="#">Get Inspired</a>
       <a class="p-2 text-muted" href="#">Family</a>
-	  <a class="p-2 text-muted" href="store.html">Profile/Store</a>
+	  <a class="p-2 text-muted" href="store.jsp">Profile/Store</a>
     </nav>
   </div>
 
   <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic">Welcome to Store</h1>
+      <h1 class="display-4 font-italic">Do you know we have launched a store feature?</h1>
       <p class="lead my-3">The store has products tailored to your profile and have awesome gifting options for your loved ones.</p>
       <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Go to Store...</a></p>
     </div>
@@ -113,12 +114,12 @@
   <div class="row">
     <div class="col-md-8 blog-main">
       <!-- <h3 class="pb-3 mb-4 font-italic border-bottom">
-        Memory#1(Your 5th wedding anniversary is coming up.)
+        Memory#1(Remember the Bali trip that you took 3 years ago? Time for it again.)
       </h3> -->
       <div class="row">
         <div class="col-md-8">
           <h3 class="pb-3 mb-4 font-italic border-bottom">
-             Memory#1(Your 5th wedding anniversary is coming up.)
+           Memory#1(Remember the Bali trip that you took 3 years ago? Time for it again.)
             <!-- <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
@@ -144,11 +145,11 @@
       </div><!-- /.blog-post -->
 
       <div class="blog-post">
-        <!-- <h3 class="pb-3 mb-4 font-italic border-bottom">Memory#2(Your dog will complete one year)</h2> -->
+        <!-- <h3 class="pb-3 mb-4 font-italic border-bottom">Memory#2(Lets see where you were at this time last year.)</h2> -->
           <div class="row">
         <div class="col-md-8">
           <h3 class="pb-3 mb-4 font-italic border-bottom">
-             Memory#2(Your dog will complete one year)
+            Memory#2(Lets see where you were at this time last year.)
             <!-- <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
@@ -159,7 +160,7 @@
             <button class="fa fa-star star" aria-hidden="true"></button>
         </div>
       </div>
-      
+
         <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
 
         <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
@@ -226,8 +227,6 @@
 <script src="public/js/sidenav.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
-
-
 
       <script type="text/javascript">
  var red = false
